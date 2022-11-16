@@ -64,14 +64,14 @@ const MoviePage = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 4,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -111,7 +111,7 @@ const MoviePage = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 4,
         },
@@ -122,7 +122,7 @@ const MoviePage = () => {
   return (
     <>
       <MovieHero />
-      <div className="my-12 container px-4 lg-ml-20 lg:w-2/3">
+      <div className="my-12 container px-4 lg-ml-20 lg:w-3/3">
         <div className="flex flex-col items-start gap-3 text-gray-400">
           <h1 className="text-white font-bold text-2xl">About the movie</h1>
           <p>{movie.overview}</p>
