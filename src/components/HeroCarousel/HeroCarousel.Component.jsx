@@ -5,6 +5,42 @@ import { NextArrow, PrevArrow } from "./Arraows.Component";
 const HeroCarousel = () => {
     const [images, setImages] = useState([
         {
+            "popularity": 1640.159,
+            "vote_count": 32,
+            "video": false,
+            "poster_path": "/9Rj8l6gElLpRL7Kj17iZhrT5Zuw.jpg",
+            "id": 734309,
+            "adult": false,
+            "backdrop_path": "/7fvdg211A2L0mHddvzyArRuRalp.jpg",
+            "original_language": "en",
+            "original_title": "Santana",
+            "genre_ids": [
+                28
+            ],
+            "title": "Santana",
+            "vote_average": 6.3,
+            "overview": "Two brothers — one a narcotics agent and the other a general — finally discover the identity of the drug lord who murdered their parents decades ago. They may kill each other before capturing the bad guys.",
+            "release_date": "2020-08-28"
+        },
+        {
+            "popularity": 1640.159,
+            "vote_count": 32,
+            "video": false,
+            "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+            "id": 734309,
+            "adult": false,
+            "backdrop_path": "/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg",
+            "original_language": "en",
+            "original_title": "Santana",
+            "genre_ids": [
+                28
+            ],
+            "title": "Santana",
+            "vote_average": 6.3,
+            "overview": "Two brothers — one a narcotics agent and the other a general — finally discover the identity of the drug lord who murdered their parents decades ago. They may kill each other before capturing the bad guys.",
+            "release_date": "2020-08-28"
+        },
+        {
             adult: false,
             backdrop_path: "/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg",
             genre_ids: [16, 878, 28],

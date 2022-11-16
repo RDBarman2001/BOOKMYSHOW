@@ -59,7 +59,7 @@ const MoviePage = () => {
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 4,
-    initialSlide: 0,
+    initialSlide: 2,
     responsive: [
       {
         breakpoint: 1024,
@@ -91,7 +91,7 @@ const MoviePage = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    initialSlide: 0,
+    initialSlide: 3,
     responsive: [
       {
         breakpoint: 1024,
@@ -123,8 +123,8 @@ const MoviePage = () => {
     <>
       <MovieHero />
       <div className="my-12 container px-4 lg-ml-20 lg:w-2/3">
-        <div className="flex flex-col items-start gap-3">
-          <h1 className="text-gray-800 font-bold text-2xl">About the movie</h1>
+        <div className="flex flex-col items-start gap-3 text-gray-400">
+          <h1 className="text-white font-bold text-2xl">About the movie</h1>
           <p>{movie.overview}</p>
         </div>
 
@@ -133,7 +133,7 @@ const MoviePage = () => {
         </div>
 
         <div className="my-8">
-          <h2 className="text-gray-800 font-bold text-2xl mb-3">
+          <h2 className="text-white font-bold text-2xl mb-3">
             Applicable Offers
           </h2>
           <div className="flex flex-col gap-3 lg:flex-row">
@@ -172,7 +172,7 @@ const MoviePage = () => {
 
         {/* Cast Slider */}
         <div className="my-8">
-          <h2 className="text-gray-800 font-bold text-2xl mb-4">
+          <h2 className="text-white font-bold text-2xl mb-4">
             Cast and Crew
           </h2>
           <Slider {...settingCast}>
@@ -187,7 +187,7 @@ const MoviePage = () => {
         </div>
 
         <div className="my-8">
-          <hr />
+
         </div>
 
 
@@ -196,12 +196,12 @@ const MoviePage = () => {
             config={settings}
             title="Recommended Movies"
             posters={recommendedMovies}
-            isDark={false}
+            isDark={true}
           />
         </div>
 
         <div className="my-8">
-          <hr />
+
         </div>
 
 

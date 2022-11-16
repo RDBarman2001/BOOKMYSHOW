@@ -44,22 +44,22 @@ const HomePage = () => {
       <HeroCarousel />
 
       <div className="container mx-auto px-4 md:px-12 my-8">
-        <h1 className="text-2xl font-bold text-gray-800 sm:ml-3 ml-0 my-3">
+        <h1 className="text-2xl font-bold text-white sm:ml-3 ml-0 my-3">
           The best of Entertainment
         </h1>
         <EntertainmentCardSlider />
       </div>
 
-      <div className="container mx-auto px-4 md:px-12 my-8">
+      <div className="container mx-auto px-4 md:px-12 my-8 ">
         <PosterSlider
           title="Recommended Movies"
           subtitle="List of recommended movies"
           posters={recommendedMovies}
-          isDark={false}
+          isDark={true}
         />
       </div>
 
-      <div className="bg-premier-800 py-12">
+      <div className="bg-premier-800 py-12 text-white">
         <div className="container mx-auto px-4 md:px-12 my-8 flex flex-col gap-3">
           <div className="hidden md:flex">
             <img
@@ -82,7 +82,7 @@ const HomePage = () => {
           title="Online Streaming Event"
           subtitle=""
           posters={onlineStreamEvents}
-          isDark={false}
+          isDark={true}
         />
       </div>
     </>

@@ -56,7 +56,7 @@ function NavLg() {
                             className="w-full h-full"
                         />
                     </div>
-                    <div className="w-full flex items-center gap-3 bg-white px-3 py-1 rounded-md">
+                    <div className="w-full flex items-center gap-3 bg-white px-3 py-1 rounded-full">
                         <BiSearch />
                         <input
                             type="search"
@@ -75,7 +75,7 @@ function NavLg() {
                     >
                         Plays
                     </Link>
-                    <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
+                    <button className="bg-red-700 text-white px-2 py-1 text-sm rounded-full">
                         Sign In
                     </button>
                     <div className="w-8 h-8 text-white">
@@ -90,7 +90,7 @@ function NavLg() {
 
 const Navbar = () => {
     return (
-        <nav className="bg-darkBackground-700 px-4 py-3">
+        <nav className="bg-darkBackground-900 px-4 py-3">
 
             <div className="md:hidden">
                 <NavSm />
