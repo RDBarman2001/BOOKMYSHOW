@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import PaymentModel from "../PaymentModal/Payment.Component";
 import { MovieContext } from "../../context/Movie.context";
 
- Math.floor(Math.random() * 100);
+<script>let p=Math.floor(Math.random() * 100); </script>
 
 const MovieInfo = ({ movie }) => {
     const { price, setIsOpen, isOpen, rentMovie, buyMovie } =
@@ -26,11 +26,7 @@ const MovieInfo = ({ movie }) => {
                     <button
                         onClick={rentMovie}
                         className="bg-red-500 price w-full py-3 text-white font-semibold rounded-lg">
-                            <script>
-                            Math.floor(Math.random() * 100); 
-
-                            </script> 
-                      
+                             p
                     </button>
                     <button
                         onClick={buyMovie}
