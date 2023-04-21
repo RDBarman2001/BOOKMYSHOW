@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import PaymentModel from "../PaymentModal/Payment.Component";
 import { MovieContext } from "../../context/Movie.context";
 
+let priceis = Math.floor(Math.random() * 100);
+
 const MovieInfo = ({ movie }) => {
     const { price, setIsOpen, isOpen, rentMovie, buyMovie } =
         useContext(MovieContext);
@@ -23,9 +25,9 @@ const MovieInfo = ({ movie }) => {
                 <div className="flex items-center gap-3 w-full">
                     <button
                         onClick={rentMovie}
-                        className="bg-red-500 w-full py-3 text-white font-semibold rounded-lg"
+                        className="bg-red-500 price w-full py-3 text-white font-semibold rounded-lg"
                     >
-                        Rent ₹149
+                       priceis
                     </button>
                     <button
                         onClick={buyMovie}
