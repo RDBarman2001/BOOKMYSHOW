@@ -25,7 +25,7 @@ const MovieInfo = ({ movie }) => {
                 <div className="flex items-center gap-3 w-full">
                     <button
                         onClick={rentMovie}
-                        className="bg-red-500 price-scrape w-full py-3 text-white font-semibold rounded-lg"class="prices">
+                        class="prices  bg-red-500 price-scrape w-full py-3 text-white font-semibold rounded-lg">
                              200
                     </button>
                     <button
